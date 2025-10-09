@@ -1,0 +1,577 @@
+* {
+  margin: 0px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.khuvsgul {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.tap {
+  width: 100%;
+  height: 773px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.fix {
+  display: flex;
+  position: fixed;
+  align-items: center;
+}
+
+.logo {
+  position: fixed;
+  width: 100px;
+  height: 34px;
+}
+
+.items {
+  display: flex;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.tap1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 80px;
+}
+
+.tap2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 250px;
+  width: 618px;
+  height: 250px;
+}
+
+.tap3 {
+  font-family: "Hanuman", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 64px;
+  width: 144px;
+  height: 64px;
+}
+.tep {
+  width: 100%px;
+  height: 500px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./background2.png);
+}
+
+.terkh {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  position: relative;
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
+}
+
+.text1 {
+  position: absolute;
+  width: 232px;
+  height: 88px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.65);
+}
+
+.amar {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  position: relative;
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
+}
+
+.text2 {
+  position: absolute;
+  width: 232px;
+  height: 88px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  text-align: center;
+  color: white;
+}
+
+.lake {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  position: relative;
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
+}
+
+.text3 {
+  position: absolute;
+  width: 232px;
+  height: 88px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  text-align: center;
+  color: white;
+}
+
+.khorgo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  position: relative;
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
+}
+
+.text4 {
+  position: absolute;
+  width: 232px;
+  height: 88px;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  text-align: center;
+  color: white;
+}
+
+.map {
+  width: 100%;
+  height: 902px;
+  display: flex;
+  background-image: url(./Roadmap\ image.png);
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.agency1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1442px;
+  height: 51px;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+}
+
+.pack {
+  font-family: "Inter", sans-serif;
+  width: 1442px;
+  height: 51px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(24, 24, 27, 0.7);
+}
+
+.boxes1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  grid-gap: 20px;
+  justify-content: center;
+  position: relative;
+  text-align: justify;
+  left: 120px;
+  right: 120px;
+  top: 59px;
+}
+
+.box1 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(238, 233, 217, 1);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  align-items: center;
+  justify-content: end;
+}
+
+.day1 {
+  display: flex;
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.box2 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(139, 184, 193, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  align-items: center;
+  justify-content: end;
+}
+.day2 {
+  display: flex;
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.box3 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(170, 216, 215, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  align-items: center;
+  justify-content: end;
+}
+
+.day3 {
+  display: flex;
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.box4 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(139, 192, 189, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  align-items: center;
+  justify-content: end;
+}
+
+.day4 {
+  display: flex;
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.box5 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(151, 204, 224, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  align-items: center;
+  justify-content: end;
+}
+
+.day5 {
+  display: flex;
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(247, 246, 243, 1);
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.top {
+  width: 100%;
+  height: 1120px;
+  background-image: url(./background4.png);
+}
+
+.tex2 {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.agency2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 51px;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+}
+
+.choose {
+  font-family: "Inter", sans-serif;
+  width: 1440px;
+  height: 24px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(24, 24, 27, 0.7);
+}
+
+.box11 {
+  box-sizing: border-box;
+  background-color: rgba(250, 251, 252, 1);
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+
+.box22 {
+  box-sizing: border-box;
+  background-color: rgba(250, 251, 252, 1);
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+
+.box33 {
+  box-sizing: border-box;
+  background-color: rgba(250, 251, 252, 1);
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+
+.map-pin-sukhbaatar {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 230px;
+  left: 1048px;
+}
+
+.map-pin-amarbayasgalant {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 72px;
+  left: 832px;
+}
+
+.map-pin-khorgo {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 680px;
+  top: 180px;
+}
+
+.map-pin-terkh {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 773px;
+  top: 300px;
+}
+
+.sukhbaatar {
+  position: absolute;
+  width: 245.34px;
+  height: 245px;
+  top: 1570px;
+  left: 1500px;
+}
+
+.amarbayasgalant {
+  position: absolute;
+  width: 245.34px;
+  height: 245px;
+  top: 1380px;
+  left: 1330px;
+}
+
+.khorgiin-togoo {
+  position: absolute;
+  width: 245.34px;
+  height: 245px;
+  top: 1530px;
+  left: 1040px;
+}
+
+.terkhiin-tsagaan-lake {
+  position: absolute;
+  width: 245.34px;
+  height: 245px;
+  top: 1650px;
+  left: 1230px;
+}
+
+.khuvsgul-lake {
+  position: absolute;
+  width: 245.34px;
+  height: 245px;
+  top: 1340px;
+  left: 1080px;
+}
+
+.img {
+  display: none;
+}
+
+.sukhbaatar-text:hover {
+  border: 2px solid white;
+  border-radius: 120px;
+}
+
+.sukhbaatar-text:hover ~ .sukhbaatar {
+  display: block;
+}
+
+.boxes2 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  left: 119px;
+}
+
+.love1 {
+  padding: 30px;
+  width: 36px;
+  height: 36px;
+}
+
+.love2 {
+  padding: 30px;
+  width: 36px;
+  height: 36px;
+}
+
+.love3 {
+  padding: 30px;
+  width: 36px;
+  height: 36px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 141px;
+  height: 22px;
+}
+
+.usd1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding-left: 24px;
+}
+
+.includes {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  grid-gap: 40px;
+  width: 336px;
+  height: 180px;
+  margin-left: 24px;
+}
+
+.ess1 {
+  font-size: 16px;
+  color: rgba(145, 145, 145, 1);
+  padding-left: 24px;
+}
+
+.usd2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding-left: 24px;
+}
+
+.ess2 {
+  font-size: 16px;
+  color: rgba(145, 145, 145, 1);
+  padding-left: 24px;
+}
+
+.popular {
+  display: flex;
+  color: white;
+  background-color: rgba(105, 114, 181, 1);
+  width: 91px;
+  height: 27px;
+  border-radius: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.usd3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding-left: 24px;
+}
+
+.ess3 {
+  font-size: 16px;
+  color: rgba(145, 145, 145, 1);
+  padding-left: 24px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
