@@ -10,11 +10,28 @@ img {
 }
 
 .logo {
-  padding-left: 120px;
+  /* padding-left: 120px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 34px;
+  padding-left: 115px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  /* gap: 497px; */
+  /* padding-left: 1300px; */
+  position: fixed;
+  /* padding-left: 500px; */
+  gap: 380px;
+  padding-top: 50px;
 }
 
 .english {
-  position: fixed;
+  /* position: fixed; */
   width: 40px;
   height: 40px;
   background-color: white;
@@ -22,12 +39,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 1300px;
+  /* margin-left: 1300px; */
 }
 
 .khuvsgul {
+  margin: auto;
   width: 1440px;
-  margin: 0 auto;
 }
 
 .tap {
@@ -42,15 +59,8 @@ img {
 
 .fix {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   align-items: center;
-}
-
-.logo {
-  position: fixed;
-  width: 100px;
-  height: 34px;
-  padding-top: 75px;
 }
 
 .items {
@@ -61,7 +71,7 @@ img {
   justify-content: center;
   color: white;
   font-size: 18px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
   gap: 70px;
 }
 
@@ -76,7 +86,7 @@ img {
   flex-direction: column;
   color: white;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 190px;
 }
 
 .tap1 {
@@ -114,6 +124,13 @@ img {
   background-image: url(./background2.png);
 }
 
+.back {
+  position: center;
+  background-size: cover;
+  width: 275.48px;
+  height: 370px;
+}
+
 .terkh {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -123,6 +140,17 @@ img {
   border-radius: 40px;
   box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
     -8px -8px rgba(31, 114, 170, 0.46);
+}
+
+.opa1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.terkh:hover .opa1 {
+  opacity: 0.5;
 }
 
 .text1 {
@@ -149,6 +177,17 @@ img {
     -8px -8px rgba(31, 114, 170, 0.46);
 }
 
+.opa2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.amar:hover .opa2 {
+  opacity: 0.6;
+}
+
 .text2 {
   position: absolute;
   width: 232px;
@@ -172,6 +211,17 @@ img {
     -8px -8px rgba(31, 114, 170, 0.46);
 }
 
+.opa3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.lake:hover .opa3 {
+  opacity: 0.7;
+}
+
 .text3 {
   position: absolute;
   width: 232px;
@@ -193,6 +243,17 @@ img {
   border-radius: 40px;
   box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
     -8px -8px rgba(31, 114, 170, 0.46);
+}
+
+.opa4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.khorgo:hover .opa4 {
+  opacity: 0.6;
 }
 
 .text4 {
@@ -259,6 +320,11 @@ img {
   border-radius: 120px;
   align-items: center;
   justify-content: end;
+  border: 4px solid transparent;
+}
+
+.box1:hover {
+  border-color: white;
 }
 
 .day {
@@ -282,7 +348,13 @@ img {
   border-radius: 120px;
   align-items: center;
   justify-content: end;
+  border: 4px solid transparent;
 }
+
+.box2:hover {
+  border-color: white;
+}
+
 .day2 {
   display: flex;
   width: 52px;
@@ -293,6 +365,7 @@ img {
   align-items: center;
   justify-content: center;
   margin: 30px;
+  border: 4px solid white;
 }
 
 .box3 {
@@ -304,6 +377,11 @@ img {
   border-radius: 120px;
   align-items: center;
   justify-content: end;
+  border: 4px solid transparent;
+}
+
+.box3:hover {
+  border-color: white;
 }
 
 .day3 {
@@ -327,6 +405,11 @@ img {
   border-radius: 120px;
   align-items: center;
   justify-content: end;
+  border: 4px solid transparent;
+}
+
+.box4:hover {
+  border-color: white;
 }
 
 .day4 {
@@ -350,6 +433,11 @@ img {
   border-radius: 120px;
   align-items: center;
   justify-content: end;
+  border: 4px solid transparent;
+}
+
+.box5:hover {
+  border-color: white;
 }
 
 .day5 {
@@ -401,6 +489,22 @@ img {
   width: 384px;
   height: 527px;
   border-radius: 40px;
+  /* box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46); */
+  position: relative;
+}
+
+.hov1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.box11:hover .hov1 {
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
+  border-radius: 40px;
 }
 
 .box22 {
@@ -409,6 +513,22 @@ img {
   width: 384px;
   height: 527px;
   border-radius: 40px;
+  /* box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46); */
+  position: relative;
+}
+
+.hov2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.box22:hover .hov2 {
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
+  border-radius: 40px;
 }
 
 .box33 {
@@ -416,6 +536,22 @@ img {
   background-color: rgba(250, 251, 252, 1);
   width: 384px;
   height: 527px;
+  border-radius: 40px;
+  /* box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46); */
+  position: relative;
+}
+
+.hov3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.box33:hover .hov3 {
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
+    -8px -8px rgba(31, 114, 170, 0.46);
   border-radius: 40px;
 }
 
@@ -455,63 +591,69 @@ img {
   position: absolute;
   width: 245.34px;
   height: 245px;
-  /* top: 1570px;
-  left: 1500px; */
   bottom: 250px;
   left: 970px;
+  display: none;
+}
+
+.box1:hover ~ .sukhbaatar {
+  display: block;
 }
 
 .amarbayasgalant {
   position: absolute;
   width: 245.34px;
   height: 245px;
-  /* top: 1380px;
-  left: 1330px; */
   bottom: 440px;
   left: 810px;
+  display: none;
+}
+
+.box2:hover ~ .amarbayasgalant {
+  display: block;
 }
 
 .khorgiin-togoo {
   position: absolute;
   width: 245.34px;
   height: 245px;
-  /* top: 1530px;
-  left: 1040px; */
   bottom: 300px;
   left: 580px;
+  display: none;
+}
+
+.box3:hover ~ .khorgiin-togoo {
+  display: block;
 }
 
 .terkhiin-tsagaan-lake {
   position: absolute;
   width: 245.34px;
   height: 245px;
-  /* top: 1650px;
-  left: 1230px; */
   bottom: 170px;
   left: 740px;
+  display: none;
+}
+
+.box4:hover ~ .terkhiin-tsagaan-lake {
+  display: block;
 }
 
 .khuvsgul-lake {
   position: absolute;
   width: 245.34px;
   height: 245px;
-  /* top: 1340px;
-  left: 1080px; */
   bottom: 480px;
   left: 540px;
-}
-
-.img {
   display: none;
 }
 
-.sukhbaatar-text:hover {
-  border: 2px solid white;
-  border-radius: 120px;
+.box5:hover ~ .khuvsgul-lake {
+  display: block;
 }
 
-.sukhbaatar-text:hover ~ .sukhbaatar {
-  display: block;
+.img {
+  /* display: none; */
 }
 
 .boxes2 {
